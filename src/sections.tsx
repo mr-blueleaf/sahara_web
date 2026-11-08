@@ -21,7 +21,7 @@ export function Hero() {
           raising awareness, inspiring compassion and showing up in person.
         </p>
         <div className="cta-row fade" style={{ transitionDelay: '1100ms' }}>
-          <a className="btn btn-primary" href={LINKS.join} target="_blank" rel="noopener noreferrer">Join SAHARA <span className="btn-ic"><Arrow /></span></a>
+          <a className="btn btn-primary" href={LINKS.join}>Join SAHARA <span className="btn-ic"><Arrow /></span></a>
           <a className="btn btn-ghost" href="#events">See our work <span className="btn-ic"><Arrow /></span></a>
         </div>
       </div>
@@ -526,7 +526,7 @@ export function Footer() {
       <div className="wrap">
         <div className="foot-hero" data-reveal>
           <Split as="p" className="foot-line" text="Be a SAHARA." />
-          <a className="btn btn-primary" href={LINKS.join} target="_blank" rel="noopener noreferrer">Join us <span className="btn-ic"><Arrow /></span></a>
+          <a className="btn btn-primary" href={LINKS.join}>Join us <span className="btn-ic"><Arrow /></span></a>
         </div>
         <div className="foot-grid">
           <div className="foot-brand">
@@ -546,7 +546,7 @@ export function Footer() {
           </div>
           <div>
             <p className="kicker">Society</p>
-            <a href={LINKS.join} target="_blank" rel="noopener noreferrer">Join SAHARA</a>
+            <a href={LINKS.join}>Join SAHARA</a>
             <a href="#contact">Collaborate</a>
             <a href="https://study.iitm.ac.in/ds/" target="_blank" rel="noopener noreferrer">IIT Madras BS Degree</a>
           </div>

@@ -184,13 +184,13 @@ export default function App() {
               {n.label}
             </a>
           ))}
-          <a className="btn btn-primary nav-join" href={LINKS.join} target="_blank" rel="noopener noreferrer">Join us <span className="btn-ic"><Arrow /></span></a>
+          <a className="btn btn-primary nav-join" href={LINKS.join}>Join us <span className="btn-ic"><Arrow /></span></a>
         </nav>
         <div className="header-tools">
           <button className="icon-btn" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} aria-label={`Switch to ${theme === 'dark' ? 'light' : 'dark'} mode`}>
             <SlotReel index={theme === 'dark' ? 1 : 0} faces={['☾', '☀']} />
           </button>
-          <a className="btn btn-primary header-join" href={LINKS.join} target="_blank" rel="noopener noreferrer">Join us <span className="btn-ic"><Arrow /></span></a>
+          <a className="btn btn-primary header-join" href={LINKS.join}>Join us <span className="btn-ic"><Arrow /></span></a>
           <button className={`icon-btn burger ${menu ? 'x' : ''}`} onClick={() => setMenu(!menu)} aria-label="Menu" aria-expanded={menu}>
             <span /><span />
           </button>

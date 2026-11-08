@@ -1,5 +1,5 @@
 export const LINKS = {
-  join: 'https://forms.gle/h4X3TSpWirGVixGW6',
+  join: '#contact',
   email: 'connectwithsahara@study.iitm.ac.in',
   instagram: 'https://www.instagram.com/sahara_iitmbs/',
   linkedin: 'https://www.linkedin.com/company/sahara-the-social-welfare-society/',
