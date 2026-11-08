@@ -26,3 +26,7 @@ dist-ssr
 scripts
 README.md
 .oxlintrc.json
+
+.env
+.env.*
+!.env.example
