@@ -11,7 +11,7 @@ dist
 dist-ssr
 *.local
 .vercel
-
+.impeccable
 .vscode
 .idea
 .DS_Store
