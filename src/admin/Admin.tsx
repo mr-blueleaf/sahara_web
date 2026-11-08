@@ -180,7 +180,7 @@ function Dashboard({ token, onAuthFail }: { token: string; onAuthFail: () => voi
               <div className="ad-body">
                 <p className="ad-msg">{r.message}</p>
                 <div className="ad-actions">
-                  <a className="ad-btn" href={`mailto:${r.email}?subject=${encodeURIComponent(`Re: your message to SAHARA (${r.purpose})`)}`} onClick={() => setStatus(r, 'replied')}>Reply by email</a>
+                  <a className="ad-btn" href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(r.email)}&su=${encodeURIComponent(`Re: your message to SAHARA (${r.purpose})`)}`} target="_blank" rel="noopener noreferrer" onClick={() => setStatus(r, 'replied')}>Reply by email</a>
                   {r.status !== 'replied' && <button className="ad-btn ghost" onClick={() => setStatus(r, 'replied')}>Mark replied</button>}
                   {r.status !== 'new' && <button className="ad-btn ghost" onClick={() => setStatus(r, 'new')}>Mark unread</button>}
                   <button className="ad-btn danger" onClick={() => remove(r)}>Delete</button>
